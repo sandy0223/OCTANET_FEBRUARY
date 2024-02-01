@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "gilroy";
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+    background-color:black;
+
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+}
+#top{
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+#back{
+    width: 100%;
+    height: 100%;
+}
+
+#back img{
+
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#wrk{
+    position: relative;
+    margin : 0 auto;
+    width: 80%;
+    height: 100vh;
+    max-width: 1920px;
+}
+
+#nav img{
+    height: 60px;
+}
+#nav{
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+#lnav , #rnav{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+#nav a{
+    pointer-events: all;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 550;
+}
+
+
+#hero{
+    position:absolute;
+    margin-top: 80px;
+    top: 50%;
+    left: 0;
+    transform: translate(0%,-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#heroleft{
+    min-width: 50%;
+}
+
+#heroleft button{
+    pointer-events: all;
+    padding: .8vw 3vw;
+    margin-top: 3vw;
+    font-size: 4vw;
+    font-family: "kajiro";
+}
+
+#heroleft button:hover{
+    pointer-events: all;
+    cursor: pointer;
+    padding: .8vw 3vw;
+    margin-top: 3vw;
+    font-size: 4vw;
+    color: #fff;
+    font-family: "kajiro";
+    background-image: linear-gradient( 86.3deg,  rgba(0,119,182,1) 3.6%, rgba(8,24,68,1) 87.6% );
+}
+
+#heroleft .elem{
+    height:9vw;
+    overflow: hidden;
+}
+
+#heroleft .elem h1{
+    line-height: .9;
+    font-family: "kajiro";
+    font-weight: 100;
+    font-size: 11vw;
+    color: #fff;
+}
+#heroright{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 17%;
+    color: #fff;
+}
+#heroright p{
+    margin-bottom:17px;
+    text-align: right;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+#heroright #image{
+width: 100%;
+height: 130px;
+margin-top: 20px;
+margin-bottom: 30px;
+background-image: url("https://images8.alphacoders.com/131/1316034.jpeg");
+background-position: center;
+background-size: cover;
+}
+
+#heroright p:nth-child(3){
+    margin-bottom: 60px ;
+}
